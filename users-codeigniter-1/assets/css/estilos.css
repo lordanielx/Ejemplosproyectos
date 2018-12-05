@@ -1,0 +1,102 @@
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ * Description of estilos
+ *
+ * @author Héctor
+ */
+    
+body { 
+    background-color: #5882FA;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 30px;
+}
+
+div {	
+        color: whitesmoke;
+	text-align: center;
+}
+.cuadro_1 {
+	width: auto;
+	height: auto;
+	background-color: #2E64FE;
+}
+.boton_1{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 200;
+    font-size: 15px;
+    font-style: italic;
+    color: whitesmoke;
+    background-color: #088A68;
+    border-radius: 15px;
+    /*border: 3px double #006505;*/
+ }
+ .boton_1:hover{
+    opacity: 0.6;
+    text-decoration: none;
+ }
+ 
+ .boton_2{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 200;
+    font-size: 15px;
+    font-style: italic;
+    color: whitesmoke;
+    background-color: #A9BCF5;
+    border-radius: 15px;
+    /*border: 3px double #006505;*/
+ }
+ .boton_2:hover{
+    opacity: 0.8;
+    text-decoration: none;
+ }
+ 
+ .boton_3{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 200;
+    font-size: 15px;
+    font-style: italic;
+    color: whitesmoke;
+    background-color: #088A68;
+    border-radius: 15px;
+    /*border: 3px double #006505;*/
+ }
+ .boton_3:hover{
+    opacity: 0.6;
+    text-decoration: none;
+ }
+ 
+ .caja { 
+	font-family: sans-serif; 
+	font-size: 18px; 
+	font: ;ont-weight: 400; 
+	color: #ffffff; 
+	background:#ee0467 
+}
+

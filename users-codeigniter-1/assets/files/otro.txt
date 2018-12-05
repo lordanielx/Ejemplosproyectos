@@ -1,0 +1,1 @@
+Este es un ensayo de los archivos con extensión txt, en PHP y Query

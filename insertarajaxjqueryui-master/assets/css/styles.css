@@ -1,0 +1,79 @@
+header{
+	width: 100%;
+	height: auto;
+	background-color: #000;
+	color: #fff;
+}
+nav{
+	width: 100%;
+	height: auto;
+	background: #131617;
+	background-image: url(../images/textura2.png);
+}
+nav .col-2{
+	background-color: rgba(255, 255, 255, .4);
+	border-radius: 15px;
+	cursor: pointer;
+	transition: .5s ease-in;
+	padding-top: 7px;
+	padding-bottom: 7px; 
+}
+nav .col-2:hover{
+	background-color: rgba(2, 2, 2, .4);
+	transition: .5s ease-in;
+}
+nav .col-2:hover > a{
+	color: #fff;
+	transition: .5s ease-in;
+}
+nav .col-2 a{
+	text-decoration: none;
+	color: #000;
+	font-size: 17px;
+	font-weight: bold;
+	transition: .5s ease-in;
+}
+.row{
+	margin:0;
+}
+.tableBody{
+	background-color: #000;
+	color: #fff;
+	border-radius: 20px;
+}
+.tableBody .row{
+	width: 100%;
+	margin: 10px auto; 
+}
+.tableBody .col-md-1:first-child{
+	border-left: 2px solid #fff;
+	margin-left: auto;
+	border-radius: 10px 0 0 10px;
+}
+.tableBody .col-md-2:last-child{
+	margin-right: auto;
+	border-right: 2px solid #fff;
+	border-radius: 0 10px 10px 0;
+}
+.tableBody .col-md-1,
+.tableBody .col-md-2{
+	/*border-right: 1px solid #fff;
+	border-left: 1px solid #fff;*/
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	/*border-radius: 5px;*/
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.margen10Por{
+	margin-top: 10%;
+}
+.imgMia{
+	width: 150px;
+	height: auto;
+}
+
+#txtCountFiles{
+	display: inline-block;
+}
